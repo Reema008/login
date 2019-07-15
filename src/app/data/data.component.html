@@ -1,0 +1,38 @@
+<h1>Registration Details</h1><span style="margin-left:50em">
+    <button class="button1" type="submit" (click)="batch()">Employee's_Department </button></span>
+    <span style="margin-left:5em">
+<button class="button" type="submit" (click)="add()">Add</button></span><br><br>
+<table >
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Date of Birth</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>About You</th>
+                <th>State</th>
+                <th>Gender</th>
+                <th>Departments Id</th>
+                <th>Date of Joining</th>
+                <th>Options</th>
+            </tr>
+          </thead>
+          <tbody>
+              <!-- <tr  *ngFor="let item of tabledata"> -->
+                  <tr  *ngFor="let item of selected">
+                <td>{{item.Id}}</td>
+                <td>{{item.Name}}</td>
+                <td>{{item.Date_of_Birth}}</td>
+                <td>{{item.eMail}}</td>
+                <td>{{item.Contact}}</td>
+                <td>{{item.About_You}}</td>
+                <td>{{item.State}}</td>
+                <td>{{item.Gender}}</td>
+                <td>{{item.DepartmentsId}}</td>
+                <td>{{item.Date_of_Joining}}</td>
+                <td><button class="button" type="submit" (click)="edit(item)">Edit</button>
+                <button class="button" type="submit" (click)="delete(item.Id)">Delete</button></td></tr>
+            </tbody>
+          </table>
+        

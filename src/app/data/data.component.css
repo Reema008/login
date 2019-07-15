@@ -1,0 +1,47 @@
+
+  table, thead, td,th,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* margin-left: 9% */
+  }
+  th,td{
+      padding:25px;
+  }
+  .button {
+    display: inline-block;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background:maroon;
+    background: -webkit-gradient(linear, left top, left bottom, from(maroon), to(maroon));
+    background: -moz-linear-gradient(top,maroon,maroon);
+    background: linear-gradient(to bottom, maroon,maroon);
+    text-decoration: none;
+    font:13px ;
+   color:white;
+  }
+  .button1{
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background:maroon;
+    background: -webkit-gradient(linear, left top, left bottom, from(maroon), to(maroon));
+    background: -moz-linear-gradient(top,maroon,maroon);
+    background: linear-gradient(to bottom, maroon,maroon);
+    text-decoration: none;
+    font:13px ;
+   color:white;
+  }
+  .head{
+    font:25px ;
+    color:black;
+  }
