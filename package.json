@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "~8.0.3",
     "@angular/router": "~8.0.3",
     "dropdown": "^0.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "multiselect": "^0.9.12",
     "mydatepicker": "^2.6.6",
     "ng-multiselect-dropdown": "^0.2.3",
